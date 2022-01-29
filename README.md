@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [URL](https://your-live-site-url.com)
+- Live Site URL: [URL](https://srijan945.github.io/Tip-Calculator/)
 
 ### Built with
 
