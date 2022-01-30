@@ -65,8 +65,8 @@ h1{
 
 
 
-/***************************Section******************************/
-section{
+/***************************main******************************/
+main{
     background-color: var(--white);
     border-top-left-radius: 1.875rem;
     border-top-right-radius: 1.875rem; 
@@ -260,7 +260,7 @@ button:hover{
     body{
         padding: 5% 20%;
     }
-    section{
+    main{
         border-radius: 1.875rem;
         padding: 3%;
     }
