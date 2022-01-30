@@ -86,7 +86,7 @@ section{
     padding-right: 2%;
     margin-bottom: 0.625rem;
 }
-.user-input div h3{
+.user-input div h2{
     font-size: 0.875rem;
     font-weight: 700;
     color: var(--subheading-text);
@@ -120,8 +120,13 @@ input:focus,#last:focus{
     border: 0.125rem solid var(--bg-hover-color);
     outline: none;
 }
-input::-webkit-inner-spin-button,input::-webkit-outer-spin-button{
-    display: none;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
 }
 .user-input img{
     position: absolute;
@@ -167,7 +172,7 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button{
 #warning{
     border: 0.125rem solid red;
 }
-.u-i-3 > h3::after{
+.u-i-3 > h2::after{
     position: absolute;
     right: 0;
     content: "Can't be zero";
@@ -280,7 +285,7 @@ button:hover{
         position: absolute;
         bottom: 0;
     }
-    .u-i-3 > h3::after{
+    .u-i-3 > h2::after{
         position: absolute;
         right: 0;
         content: "Can't be zero";
